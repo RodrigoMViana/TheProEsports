@@ -2,8 +2,9 @@ body {
     margin: 0px
 }
 .container {
-    margin: 100px;
-    margin-left: 820px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
     width: 100vw;
     height: 100vh;
     background: #6C7A89;
@@ -23,15 +24,16 @@ body {
     background-color:#fff;
     border:solid 2px #3F51B5;
     border-radius:10px;
-    width:290px;
+    width:218px;
     height:32px;
   }
    
   #txtBusca{
     float:center;
+    margin: 0 auto;
     background-color:transparent;
-    padding-left:5px; 
-    font-size:18px;
+    padding-left:3px; 
+    font-size:12px;
     border:#3F51B5;
     height:28px;
     width:224px;
@@ -39,11 +41,12 @@ body {
    
   #btnBusca{
     border:#fff;
-    float:left;
+    margin: 0 auto;
+    float:right;
     height:28px;
-    border-radius:0 7px 7px 0;
+    border-radius:0 8px 8px 0;
     width:70px;
-    font-weight:bold #fff;
+    font-weight:bold;
     background:#3F51B5;
   }
    
