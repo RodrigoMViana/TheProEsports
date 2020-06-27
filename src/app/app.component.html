@@ -1,30 +1,32 @@
-<div class="container-fluid">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <div style="color: #fff;" class="faixa">
-            <ul>
-              <a class="navbar-brand" href="#">
-                <b style="color: #fff;font-size: larger;" ><i>
-                  
-                 TheProEsports
-                
-   
-                </i></b>
-             </a>
-            <b><a style="margin-left: 40px;color: #fff;" href="./app/home">Global</a></b>
-            <b><a style="margin-left: 40px;color: #fff;" href="./app/cblol">BR</a></b>
-            <b><a style="margin-left: 40px;color: #fff;" href="./app/cblol">KR</a></b>
-            <b><a style="margin-left: 40px;color: #fff;" href="./app/cblol">China</a></b>
-            <b><a style="margin-left: 40px;color: #fff;" href="./app/cblol">NA</a></b>
-            <b><a style="margin-left: 40px;color: #fff;" href="./app/cblol">EU</a></b>
-            <button style="background-color: #fff;margin-left: 550px; font-size: 20px;border: solid #fff; font-family: open sans;border-radius: 50px;"> <b> <a style="font-size: 15px; color: #111379;margin: auto;" href="#">Login</a></b></button>
-      
-            </ul>
-          </div> 
-        </div>
-      </div>
-    </nav>
-    <router-outlet></router-outlet>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="app/home"><i><b>TheProEsports</b></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item" routerLinkActive="active" >
+        <a class="nav-link" routerLink="app/home"><b>Global</b></a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="app/cblol"><b>BR</b></a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="#"><b>KR</b></a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="#"><b>China</b></a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="#"><b>NA</b></a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="#"><b>EU</b></a>
+      </li>
+    </ul>
   </div>
-  
+</nav>
+<div>
+  <router-outlet></router-outlet>
+</div>
+
